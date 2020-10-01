@@ -1,0 +1,184 @@
+*{
+  font-family: "comic sans ms";
+  transition: .9s ease-in-out all
+}
+
+body{
+  margin: 0;
+  padding: 21px 0 0 0
+}
+
+.top{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1
+}
+
+.top ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.top ul li {
+  float: right;
+}
+
+.top ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.top ul li a:hover:not(.active) {
+  background-color: rgba(125, 125, 125, 0.5);
+}
+
+.top ul li a img {
+  width: 10px;
+  display: inline-block;
+  color: red
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+.top ul li.brand {
+  float: left;
+}
+#mySidenav {
+  top: 100px
+}
+
+#mySidenav a {
+  position: fixed;
+  left: -95px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  z-index: 1
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#about {
+  top: 80px;
+  background-color: #4CAF50;
+}
+
+#blog {
+  top: 140px;
+  background-color: #2196F3;
+}
+
+#projects {
+  top: 200px;
+  background-color: #f44336;
+}
+
+#contact {
+  top: 260px;
+  background-color: #555
+}
+/* code pen */
+
+dt {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  position: sticky;
+  top: 71px;
+  left: 0;
+  margin: 1em 0;
+}
+
+.sticky{
+  margin: 90px 60px
+}
+
+.fixed-background {
+  background: url(../images/intelligent.jpg) fixed;
+  padding: 50px;
+  margin: 50px 0 0 0;
+  text-align: center;
+}
+
+.fixed-background p {
+  margin: 100px;
+  padding: 30px;
+  background: rgb(125,125,125);
+  max-height: 4px;
+  overflow: hidden;
+  line-height: 1.9;
+  cursor: pointer;
+  text-align: center;
+}
+
+.fixed-background p:hover{
+  max-height: 100px;
+}
+
+.relations{
+  background: no-repeat center/100% fixed url(../images/n.jpg);
+  /* background: bg-color bg-image position/bg-size bg-repeat bg-origin bg-clip bg-attachment initial|inherit; */
+  padding: 50px;
+  margin: 50px 0;
+}
+
+.parent div {
+  padding: 20px;
+  background: rgba(0, 0, 255, 0.5);
+}
+
+.parent > div {
+  padding: 20px;
+  text-transform: capitalize;
+  background: rgba(255, 0, 0, 0.5);
+}
+
+.parent div~p {
+  padding: 20px;
+  text-transform: capitalize;
+  background: rgba(0 , 255 , 0, 0.5);
+}
+
+.parent > div > p:hover~p {
+  padding: 20px;
+  text-transform: capitalize;
+  background: rgba(0 , 125 , 125, 0.5);
+}
+
+.Pseudo {
+  background: no-repeat center/100% fixed url(../images/l.jpg);
+  padding: 50px;
+  margin: 50px 0;
+}
+
+.Pseudo > input {
+  padding: 20px;
+  text-transform: capitalize;
+  background: rgba(187, 172, 172, 0.5);
+  line-height: 2;
+  width: 100%;
+}
+
+body > section:nth-child(5){
+  background-image: url(../images/n.jpg);
+}
+
+.cont {
+  background: rgba(0 , 125 , 125, 0.5);
+  padding: 30px
+}
