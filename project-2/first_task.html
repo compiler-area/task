@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>
+      first task
+    </title>
+    <!-- the title of the pages -->
+    <style>
+      .first_div, .second_div{
+        width: 300px;
+        margin: 10px;
+        padding: 40px;
+        background: #ddd;
+        /* display: inline-block; */
+      }
+
+      li{
+        background: #ddd;
+        margin: 5px;
+        padding: 10px
+      }
+
+      ul li{
+        background-color: #333;
+        color: #fff
+      }
+    </style>
+
+  </head>
+  <body>
+     <!-- we type the code here -->
+     <!-- start first div -->
+    <div class="first_div" id="fir">
+      <h1>first div</h1> <!-- the main heading repeated again down -->
+      <h4>image without title and link without target</h4> <!-- the second heading repeated again down -->
+      <p>your img & link</p> <!-- paragraph about what is inside -->
+      <a href="https://www.facebook.com/" target="">simple link to facebook without outer target</a><br>
+      <img src="https://image.flaticon.com/icons/svg/36/36634.svg" width="200px" height="200px" title="" alt="stack over flow"><br>
+
+      <!-- sign in form -->
+
+      <!-- start -->
+      <p>username</p>
+      <input type="text" name="username" value="">
+      <p>password</p>
+      <input type="password" name="pass" value=""><br>
+      <!-- end -->
+
+      <a href="#sec">link go to second div</a>
+    </div>
+
+    <!-- end first div -->
+    <!-- start second div -->
+
+    <div class="second_div" id="sec">
+      <h1>second div</h1>
+      <h4>image with title and link with target</h4>
+      <p>your img & link</p>
+      <a href="https://www.facebook.com/" target="_blank">simple link to facebook with outer target</a><br>
+      <img src="https://image.flaticon.com/icons/svg/36/36634.svg" width="200px" height="200px" title="stack over flow" alt="stack over flow"><br>
+      <p>username</p>
+      <input type="text" name="username" value="username">
+      <p>password</p>
+      <input type="password" name="pass" value="password"><br>
+      <a href="#fir">link go to first div</a>
+    </div>
+
+    <!-- end second div -->
+
+    <!-- cards divs -->
+    <!-- start -->
+    <div class="cards" style="margin:40px">
+      <div class="first_card" style="margin:10px;padding:20px;display:inline;background-color:#ef1919">
+        <p style="color:#0a0ab4;display:inline">My name is abuBakr</p>
+      </div>
+      <div class="second_card" style="margin:10px;padding:20px;display:inline;background-color:#25259f">
+        <p style="color:#ef1919;display:inline">i am programer</p>
+      </div>
+      <div class="third_card" style="margin:10px;padding:20px;display:inline;background-color:#ef1919">
+        <p style="color:#0a0ab4;display:inline">my hope is to be the gtretest programmer</p>
+      </div>
+
+    </div>
+    <!-- end -->
+
+    <!-- lists -->
+    <!-- start -->
+    <div class="skills" style="margin:10px;padding:20px;background-color:#19ef73">
+      <h6 style="color:#0a0ab4;display:inline">My skills are :</h6>
+      <ol>
+        <li>html & html5</li>
+        <li>css & css3</li>
+        <li>
+          javascript:
+          <ul>
+            <li>jquery</li>
+            <li>bom</li>
+            <li>dom</li>
+          </ul>
+        </li>
+        <li>Bootstrap</li>
+      </ol>
+    </div>
+    <!-- end -->
+
+
+    <script type="text/javascript"></script>
+
+  </body>
+</html>
