@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>abubakr-second-css</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- *************************** fantawesome *************************** -->
+    <link rel="stylesheet" href="css/brands.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/solid.min.css">
+    <!-- *************************** fantawesome *************************** -->
+
+  </head>
+  <body>
+
+    <!-- ********************** top nav bar ********************** -->
+    <div class="topnav">
+      <a class="active" href="#home">Home</a>
+      <a href="#music">Music <i class="fa fa-music"></i></a>
+      <a href="#contact">Regist <i class="fa fa-share-square"></i></a>
+      <div class="search-container">
+        <form action="">
+          <input type="search" placeholder="Search.." name="search">
+          <button type="submit">search <i class="fa fa-search"></i></button>
+        </form>
+      </div>
+    </div>
+    <!-- ********************** top nav bar ********************** -->
+
+    <!-- ********************** side nav ********************** -->
+
+    <aside id="mySidenav" class="sidenav">
+      <a href="#facebook" id="about"><i class="fab fa-facebook-f"></i></a>
+      <a href="#twitter" id="blog"><i class="fab fa-twitter"></i></a>
+      <a href="#github" id="projects"><i class="fab fa-github"></i></a>
+    </aside>
+
+    <!-- ********************** side nav ********************** -->
+
+    <!-- ********************** relations examble ********************** -->
+    <section class="relations" id="music">
+      <div class="overley">
+        <audio controls src="audio_video/challa.mp3" type="audio/mpeg" preload="auto" autoplay></audio>
+        <video controls src="audio_video/conor.mp4"></video>
+      </div>
+    </section>
+    <!-- ********************** end relations examble ********************** -->
+  
+    <!-- ********************** fixed background examble ********************** -->
+    <section class="Pseudo" id="contact">
+      <div class="overley">
+        <h3> have a seet in our party </h3>
+          <form action="" method="get">
+            <label for="user_name">user_name</label>
+            <input type="text" name="" id="user_name" placeholder="type your name ... ">
+            <label for="email">email</label>
+            <input type="email" name="" id="email" placeholder="type your email ..." readonly value="ana@gmail.com">
+            <label for="datetime-local">type the date of party</label>
+            <input type="datetime-local" name="datetime-local" id="datetime-local" >
+            <label for="tel">phone number</label>
+            <input type="tel" name="tel" id="tel" placeholder="type tpur phone number">
+            <button type="submit">send info</button>
+            <button type="reset">delete all</button>
+          </form>
+      </div>
+    </section>
+    <!-- ********************** end fixed background examble ********************** -->
+  
+    <!-- ********************** fixed background examble ********************** -->
+    <!-- <section class="Pseudo">
+        <div class="cont">
+            <div> your downloading is in handle <progress></progress> </div>
+            <div> now u r <progress id="file" value="32" max="100"> 32% </progress> </div>
+            <div> but now <meter id="disk_c" value="2" min="0" max="10" low="5" optimum="6">2 out of 10</meter> </div>
+            <div> then now <meter id="disk_c" value="7" min="0" max="10" low="5" optimum="6">2 out of 10</meter> </div>
+            <div> and now <meter id="disk_c" value="9" min="0" max="10" low="5" optimum="6" high="8">2 out of 10</meter> </div>
+        </div>
+    </section> -->
+    <!-- ********************** end fixed background examble ********************** -->
+
+    <!-- ********************** footer ********************** -->
+    <footer class="fixed-background">
+        copy rights &copy; team compiler 2020
+    </footer>
+    <!-- ********************** footer ********************** -->
+
+    <script src="js/brands.min.js" charset="utf-8"></script>
+    <script src="js/fontawesome.min.js" charset="utf-8"></script>
+    <script src="js/solid.min.js" charset="utf-8"></script>
+
+  </body>
+</html>

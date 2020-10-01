@@ -1,0 +1,265 @@
+*{
+  font-family: "comic sans ms";
+  transition: .9s ease-in-out all
+}
+
+body{
+  margin: 0;
+  padding: 21px 0 0 0;
+  background: #000;
+  cursor: pointer;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=search] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+
+#mySidenav {
+  top: 100px
+}
+
+#mySidenav a {
+  position: fixed;
+  left: -50px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 50px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  z-index: 1;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#about {
+  top: 80px;
+  background-color: rgb(76 91 175);
+}
+
+#blog {
+  top: 140px;
+  background-color: #2196F3;
+}
+
+#projects {
+  top: 200px;
+  background-color: rgb(173 166 164);
+}
+
+#contact {
+  top: 260px;
+  background-color: #555
+}
+
+.sticky{
+  margin: 90px 60px
+}
+
+.fixed-background {
+  /* background: url(../images/intelligent.jpg) fixed; */
+  padding: 50px;
+  margin: 50px 0 0 0;
+  text-align: center;
+}
+
+.fixed-background p {
+  margin: 100px;
+  padding: 30px;
+  background: rgb(125,125,125);
+  max-height: 4px;
+  overflow: hidden;
+  line-height: 1.9;
+  cursor: pointer;
+  text-align: center;
+}
+
+.fixed-background p:hover{
+  max-height: 100px;
+}
+
+.relations{
+  background: no-repeat center/100% 100% fixed url(../images/1828458.jpg);
+  /* background: bg-color bg-image position/bg-size bg-repeat bg-origin bg-clip bg-attachment initial|inherit; */
+  margin: 30px 0;
+}
+
+.overley{
+  padding: 100px;
+  background: rgba(10 , 10 , 10, 0.5);
+  text-align: center;
+}
+
+audio{
+  width: 20px;
+  text-align: center;
+}
+
+audio:hover{
+  width: 100% ;
+}
+
+video{
+  width: 100% ;
+  margin-top: 30px;
+}
+
+.parent div {
+  padding: 20px;
+  background: rgba(0, 0, 255, 0.5);
+}
+
+.parent > div {
+  padding: 20px;
+  text-transform: capitalize;
+  background: rgba(255, 0, 0, 0.5);
+}
+
+.parent div~p {
+  padding: 20px;
+  text-transform: capitalize;
+  background: rgba(0 , 255 , 0, 0.5);
+}
+
+.parent > div > p:hover~p {
+  padding: 20px;
+  text-transform: capitalize;
+  background: rgba(0 , 125 , 125, 0.5);
+}
+
+.Pseudo {
+  background: no-repeat center/100% 100% fixed url(../images/pop-bg.jpg);
+  /* padding: 50px; */
+  margin: 50px 0;
+}
+
+.Pseudo h3 {
+  background: rgba(225 , 225 , 225, 0.5);
+  padding: 20px;
+  border-radius: 36px;
+  text-align: center;
+}
+
+.Pseudo label {
+  text-align: center;
+  color: #fff;
+  display: block;
+  padding:5px
+}
+
+.Pseudo input {
+  padding: 10px;
+  text-transform: capitalize;
+  background: rgba(187, 172, 172, 0.5);
+  line-height: 2;
+  width: 90%;
+  display: block;
+  border-radius: 20px;
+}
+
+.Pseudo button{
+    border: none;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+.Pseudo form button:nth-child(9){
+  background: rgb(255 , 125 , 125);
+}
+
+.Pseudo form button:hover:nth-child(9){
+  background: rgb(255 , 10 , 125);
+}
+
+.Pseudo form button:nth-child(10){
+  background: rgb(155 , 255 , 125);
+}
+
+.Pseudo form button:hover:nth-child(10){
+  background: rgb(10 , 255 , 125);
+}
+
+body > section:nth-child(5){
+  /* background-image: url(../images/n.jpg); */
+}
+
+.cont {
+  background: rgba(0 , 125 , 125, 0.5);
+  padding: 30px
+}
+
+input{
+  cursor: pointer;
+}
