@@ -106,41 +106,41 @@ function want2(){
             break;
         
         case 'L':
-            document.getElementById("pic").innerHTML = '<img src="../images/l.jpg">';
+            document.getElementById("pic").innerHTML = '<img src="images/l.jpg">';
             console.log(an);
             break;
 
         case 'KIRA':
-            document.getElementById("pic").innerHTML = '<img src="../images/kira.jpg">';
+            document.getElementById("pic").innerHTML = '<img src="images/kira.jpg">';
             console.log(an);
             break;
 
         case 'OBITO':
-            document.getElementById("pic").innerHTML = '<img src="../images/obito.png">';
+            document.getElementById("pic").innerHTML = '<img src="images/obito.png">';
             console.log(an);
             break;
 
         case 'NARUTO':
-            document.getElementById("pic").innerHTML = '<img src="../images/naruto.png">';
-            document.getElementById("pic").innerHTML += '<img src="../images/naruto_2.png">';
+            document.getElementById("pic").innerHTML = '<img src="images/naruto.png">';
+            document.getElementById("pic").innerHTML += '<img src="images/naruto_2.png">';
 
             console.log(an);
             break;
 
         case 'MINATU':
-            document.getElementById("pic").innerHTML = '<img src="../images/hokage.png">';
+            document.getElementById("pic").innerHTML = '<img src="images/hokage.png">';
 
             console.log(an);
             break;
 
         case 'SASSUKE':
-            document.getElementById("pic").innerHTML = '<img src="../images/sassuke.png">';
+            document.getElementById("pic").innerHTML = '<img src="images/sassuke.png">';
 
             console.log(an);
             break;
         
         case 'ITACHI':
-            document.getElementById("pic").innerHTML = '<img src="../images/itachi.png">';
+            document.getElementById("pic").innerHTML = '<img src="images/itachi.png">';
 
             console.log(an);
             break;
