@@ -84,6 +84,7 @@ function want(){
             document.getElementById("pic").innerText = "sorry not found search with google by";
             document.getElementById("pic").innerHTML += "<a href='http://google.com/search?q=" + wan + "'> here search by google </a>" ;
             document.getElementById("pic").innerHTML += "<br><a href='https://www.pexels.com/search//" + wan + "'> here search by piexels </a>" ;
+            document.getElementById("pic").innerHTML += "<br><a href='https://wall.alphacoders.com/search.php?search=" + wan + "'> here search by 4k wall papers </a>" ;
             console.log(wan);
             break;
     }
@@ -151,6 +152,7 @@ function want2(){
             document.getElementById("pic").innerText = "sorry not found";
             document.getElementById("pic").innerHTML += "<a href='http://google.com/search?q=" + an + "'> here search by google </a>" ;
             document.getElementById("pic").innerHTML += "<a href='https://www.pexels.com/search//" + an + "'> here search by piexels </a>" ;
+            document.getElementById("pic").innerHTML += "<br><a href='https://wall.alphacoders.com/search.php?search=" + an + "'> here search by 4k wall papers </a>" ;
             console.log(an);
             break;
     }
