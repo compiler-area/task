@@ -72,7 +72,8 @@ function want() {
       break;
 
     default:
-      document.getElementById("pic").innerText = "sorry not found";
+      document.getElementById("pic").innerText = "sorry not found search with google by";
+      document.getElementById("pic").innerHTML += "<a href='http://google.com/search?q=" + wan + "'> here search by google </a>";
       console.log(wan);
       break;
   }
@@ -131,6 +132,7 @@ function want2() {
 
     default:
       document.getElementById("pic").innerText = "sorry not found";
+      document.getElementById("pic").innerHTML += "<a href='http://google.com/search?q=" + an + "'> here search by google </a>";
       console.log(an);
       break;
   }
