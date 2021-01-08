@@ -1,29 +1,37 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>abubakr-second-css</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
 
     <!-- *************************** fantawesome *************************** -->
-    <link rel="stylesheet" href="css/brands.min.css">
-    <link rel="stylesheet" href="css/fontawesome.min.css">
-    <link rel="stylesheet" href="css/solid.min.css">
+    <link rel="stylesheet" href="css/brands.min.css" />
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <link rel="stylesheet" href="css/solid.min.css" />
     <!-- *************************** fantawesome *************************** -->
-
-
   </head>
   <body>
-
     <!-- ********************** top nav bar ********************** -->
     <header class="top">
       <ul>
-        <li class="brand"><a class="active" href="#home">Home</a></li> <!-- right brand -->
-        <li><a href="#facebook"><i class="fab fa-facebook-f"></i></a></li>
-        <li><a href="#twitter"><i class="fab fa-twitter"></i></a></li>
-        <li><a href="#github"><i class="fab fa-github"></i></a></li>
-        <li><a href="#instgram"><i class="fab fa-instagram"></i></a></li>
-        <li><a href="#instgram"><i class="fab fa-facebook-messenger"></i></a></li>
+        <li class="brand"><a class="active" href="#home">Home</a></li>
+        <!-- right brand -->
+        <li>
+          <a href="#facebook"><i class="fab fa-facebook-f"></i></a>
+        </li>
+        <li>
+          <a href="#twitter"><i class="fab fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="#github"><i class="fab fa-github"></i></a>
+        </li>
+        <li>
+          <a href="#instgram"><i class="fab fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href="#instgram"><i class="fab fa-facebook-messenger"></i></a>
+        </li>
       </ul>
     </header>
     <!-- ********************** top nav bar ********************** -->
@@ -40,50 +48,78 @@
 
     <!-- ********************** relations examble ********************** -->
     <section class="relations">
+      <div class="cont">
+        you logged in at
+        <time datetime="2020-10-25 16:20:33">oct , 25 , 2020 </time>
+      </div>
 
-        <div class="cont">
-            you logged in at <time datetime="2020-10-25 16:20:33">oct , 25 , 2020 </time>
-        </div>
-
-        <details>
-            <summary>Epcot Center</summary>
-            <p>Epcot is a theme park at Walt <bdi> والت </bdi> World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
-        </details>
+      <details>
+        <summary>Epcot Center</summary>
+        <p>
+          Epcot is a theme park at Walt <bdi> والت </bdi> World Resort featuring
+          exciting attractions, international pavilions, award-winning fireworks
+          and seasonal special events.
+        </p>
+      </details>
     </section>
-      <!-- ********************** end relations examble ********************** -->
-  
+    <!-- ********************** end relations examble ********************** -->
+
     <!-- ********************** fixed background examble ********************** -->
     <section class="Pseudo">
-        <input type="text" list="browsers">
-        <datalist id="browsers">
-            <option value="Firefox">
-            <option value="Chrome">    
-            <option value="Internet Explorer">
-            <option value="Opera">
-            <option value="Safari">
-        </datalist>
+      <input type="text" list="browsers" />
+      <datalist id="browsers">
+        <option value="Firefox"></option>
+        <option value="Chrome"></option>
+        <option value="Internet Explorer"></option>
+        <option value="Opera"></option>
+        <option value="Safari"></option>
+      </datalist>
     </section>
     <!-- ********************** end fixed background examble ********************** -->
-  
+
     <!-- ********************** fixed background examble ********************** -->
     <section class="Pseudo">
-        <div class="cont">
-            <div> your downloading is in handle <progress></progress> </div>
-            <div> now u r <progress id="file" value="32" max="100"> 32% </progress> </div>
-            <div> but now <meter id="disk_c" value="2" min="0" max="10" low="5" optimum="6">2 out of 10</meter> </div>
-            <div> then now <meter id="disk_c" value="7" min="0" max="10" low="5" optimum="6">2 out of 10</meter> </div>
-            <div> and now <meter id="disk_c" value="9" min="0" max="10" low="5" optimum="6" high="8">2 out of 10</meter> </div>
+      <div class="cont">
+        <div>your downloading is in handle <progress></progress></div>
+        <div>
+          now u r <progress id="file" value="32" max="100">32%</progress>
         </div>
+        <div>
+          but now
+          <meter id="disk_c" value="2" min="0" max="10" low="5" optimum="6">
+            2 out of 10
+          </meter>
+        </div>
+        <div>
+          then now
+          <meter id="disk_c" value="7" min="0" max="10" low="5" optimum="6">
+            2 out of 10
+          </meter>
+        </div>
+        <div>
+          and now
+          <meter
+            id="disk_c"
+            value="9"
+            min="0"
+            max="10"
+            low="5"
+            optimum="6"
+            high="8"
+          >
+            2 out of 10
+          </meter>
+        </div>
+      </div>
     </section>
     <!-- ********************** end fixed background examble ********************** -->
 
     <footer class="fixed-background">
-        copy rights &copy; team compiler 2020
+      copy rights &copy; team compiler 2020
     </footer>
 
     <script src="js/brands.min.js" charset="utf-8"></script>
     <script src="js/fontawesome.min.js" charset="utf-8"></script>
     <script src="js/solid.min.js" charset="utf-8"></script>
-
   </body>
 </html>

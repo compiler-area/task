@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>abubakr-second-css</title>
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- *************************** fantawesome *************************** -->
+
+    <!-- *************************** fantawesome *************************** -->
+  </head>
+  <body>
+    <!-- ********************** top nav bar ********************** -->
+    <div class="topnav">
+      <a class="active" href="#home">Home</a>
+      <a href="#music"
+        >sharingan <img src="images/black.png" style="width: 15px" alt=""
+      /></a>
+      <a href="#contact"
+        >itachi <img src="images/black2.png" style="width: 15px" alt=""
+      /></a>
+      <div class="search-container">
+        <form action="">
+          <input type="search" placeholder="Search.." name="search" />
+          <button type="submit">search <i class="fa fa-search"></i></button>
+        </form>
+      </div>
+    </div>
+    <!-- ********************** top nav bar ********************** -->
+
+    <!-- ********************** side nav ********************** -->
+
+    <aside id="mySidenav" class="sidenav">
+      <a href="#facebook" id="about">facebook</a>
+      <a href="#twitter" id="blog">twiter</a>
+      <a href="#github" id="projects">github</a>
+    </aside>
+
+    <!-- ********************** side nav ********************** -->
+
+    <!-- ********************** relations examble ********************** -->
+    <section class="relations" id="music">
+      <div class="overley">
+        <div class="f-read father">
+          <p class="f-read">type the first number</p>
+          <input
+            type="text"
+            name="num-1"
+            id="f"
+            class="f-read"
+            placeholder="type here ..."
+          />
+          <p class="f-read">type the second number</p>
+          <input
+            type="text"
+            name="num-2"
+            id="s"
+            class="f-read"
+            placeholder="type here ..."
+          />
+          <div class="f-read">the plus of them is : <span id="all"></span></div>
+          <button class="radius" onclick="plus()">add</button>
+        </div>
+
+        <hr />
+
+        <div class="f-read father">
+          <button class="radius" onclick="prom()">prompt</button>
+          <p id="wh"></p>
+        </div>
+
+        <hr />
+
+        <div class="f-read father">
+          <button
+            class=""
+            onclick="this.innerText = Date()"
+            ondblclick="this.innerText = 'not a double click' "
+          >
+            tell me time on click
+          </button>
+          <hr />
+          <input
+            type="text"
+            name=""
+            id=""
+            onkeyup="document.getElementById('coun').innerText = this.value.length"
+          />
+          <span id="coun"></span>
+
+          <hr />
+
+          <input type="color" id="colo" onchange="this.value" />
+          <span
+            onmouseenter="this.style.background = document.getElementById('colo').value"
+          >
+            hover to change background color
+          </span>
+        </div>
+
+        <hr />
+
+        <div class="f-read father">
+          <input type="text" id="numm" />
+          <p>choose number of elements to store (maximum 19 user)</p>
+          <br />
+          <button
+            class=""
+            onclick="isNaN(document.getElementById('numm').value) || document.getElementById('numm').value == '' ?  ( confirm('type valid number') ? alert('good') : alert('not aprroved ans') )  : makarr(Number(document.getElementById('numm').value))  "
+          >
+            make array
+          </button>
+
+          <button
+            onclick="confirm('are you sure') ? document.getElementById('user').innerText = '' : '' "
+          >
+            del array
+          </button>
+
+          <div id="user"></div>
+        </div>
+
+        <!-- <hr/> -->
+      </div>
+    </section>
+    <!-- ********************** end relations examble ********************** -->
+
+    <!-- ********************** footer ********************** -->
+    <footer class="fixed-background">
+      copy rights &copy; team compiler 2020
+    </footer>
+    <!-- ********************** footer ********************** -->
+    <script src="js/java.js"></script>
+  </body>
+</html>

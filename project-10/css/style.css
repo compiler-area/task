@@ -333,10 +333,9 @@ footer{
 } */
 
 .fan:hover {
-  animation: fan .2s infinite;
+  animation: fan .2s 5;
   animation-fill-mode: forwards;
 }
-
 
 @keyframes fan {
 
@@ -392,7 +391,7 @@ footer{
 
   100%{
     transform: rotate(360deg);
-    content: url(../images/fanc2.png);
+    content: url(../images/fanc4.png);
   }
 }
 

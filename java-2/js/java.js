@@ -1,18 +1,18 @@
-var pr = prompt("say ur name" , 'ahmed' );
-    name = pr;
+var pr = prompt("say ur name", 'ahmed');
+name = pr;
 
-    // alert(Date());
+// alert(Date());
 
-    list = ['l' , 'kira' , 'obito' , 'minato' , 'sassuke' , 'naruto' ];
-        
-    var options = '';
+list = ['l', 'kira', 'obito', 'minato', 'sassuke', 'naruto'];
 
-    for (var i = 0; i < list.length; i++) {
-        options += '<option value="' + list[i] + '" />';
-        console.log(list[i]);
-    }
+var options = '';
 
-    document.getElementById('ani').innerHTML = options;
+for (var i = 0; i < list.length; i++) {
+    options += '<option value="' + list[i] + '" />';
+    console.log(list[i]);
+}
+
+document.getElementById('ani').innerHTML = options;
 
 switch (pr) {
     case '':
@@ -27,10 +27,10 @@ switch (pr) {
 
 
 
-function want(){
+function want() {
     var wan = prompt("say wat u want");
 
-    if(wan != '' || wan != null){
+    if (wan != '' || wan != null) {
         wan = wan.toUpperCase();
     }
 
@@ -39,7 +39,7 @@ function want(){
             document.getElementById("pic").innerText = "sorry not found";
             console.log(wan);
             break;
-        
+
         case 'L':
             document.getElementById("pic").innerHTML = '<img src="../images/l.jpg">';
             console.log(wan);
@@ -73,7 +73,7 @@ function want(){
 
             console.log(wan);
             break;
-        
+
         case 'ITACHI':
             document.getElementById("pic").innerHTML = '<img src="../images/itachi.png">';
 
@@ -82,9 +82,9 @@ function want(){
 
         default:
             document.getElementById("pic").innerText = "sorry not found search with google by";
-            document.getElementById("pic").innerHTML += "<a href='http://google.com/search?q=" + wan + "'> here search by google </a>" ;
-            document.getElementById("pic").innerHTML += "<br><a href='https://www.pexels.com/search//" + wan + "'> here search by piexels </a>" ;
-            document.getElementById("pic").innerHTML += "<br><a href='https://wall.alphacoders.com/search.php?search=" + wan + "'> here search by 4k wall papers </a>" ;
+            document.getElementById("pic").innerHTML += "<a href='http://google.com/search?q=" + wan + "'> here search by google </a>";
+            document.getElementById("pic").innerHTML += "<br><a href='https://www.pexels.com/search//" + wan + "'> here search by piexels </a>";
+            document.getElementById("pic").innerHTML += "<br><a href='https://wall.alphacoders.com/search.php?search=" + wan + "'> here search by 4k wall papers </a>";
             console.log(wan);
             break;
     }
@@ -92,11 +92,11 @@ function want(){
 
 
 
-function want2(){
+function want2() {
 
-    var an = document.getElementById("anime").value ;
+    var an = document.getElementById("anime").value;
 
-    if(an != '' || an != null){
+    if (an != '' || an != null) {
         an = an.toUpperCase();
     }
 
@@ -107,7 +107,7 @@ function want2(){
             document.getElementById("pic").innerText = "sorry not found";
             console.log(an);
             break;
-        
+
         case 'L':
             document.getElementById("pic").innerHTML = '<img src="images/l.jpg">';
             console.log(an);
@@ -141,7 +141,7 @@ function want2(){
 
             console.log(an);
             break;
-        
+
         case 'ITACHI':
             document.getElementById("pic").innerHTML = '<img src="images/itachi.png">';
 
@@ -150,9 +150,9 @@ function want2(){
 
         default:
             document.getElementById("pic").innerText = "sorry not found";
-            document.getElementById("pic").innerHTML += "<a href='http://google.com/search?q=" + an + "'> here search by google </a>" ;
-            document.getElementById("pic").innerHTML += "<a href='https://www.pexels.com/search//" + an + "'> here search by piexels </a>" ;
-            document.getElementById("pic").innerHTML += "<br><a href='https://wall.alphacoders.com/search.php?search=" + an + "'> here search by 4k wall papers </a>" ;
+            document.getElementById("pic").innerHTML += "<a href='http://google.com/search?q=" + an + "'> here search by google </a>";
+            document.getElementById("pic").innerHTML += "<a href='https://www.pexels.com/search//" + an + "'> here search by piexels </a>";
+            document.getElementById("pic").innerHTML += "<br><a href='https://wall.alphacoders.com/search.php?search=" + an + "'> here search by 4k wall papers </a>";
             console.log(an);
             break;
     }
