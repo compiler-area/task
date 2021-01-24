@@ -10,16 +10,22 @@
     <!-- ********************** top nav bar ********************** -->
     <div class="top">
       <ul>
-        <li class="brand"><a class="active" href="#home">Home</a></li> <!-- right brand -->
+        <li class="brand active"><a class="" href="#home">Home</a></li> <!-- right brand -->
         <li><a href="#news">News</a></li>
         <li><a href="#contact">Contact</a></li>
         <li><a href="#about">About</a></li>
+        <li>
+          <form action='https://www.google.com/search' method='GET'>
+            <input type='search' name='q' class='in'>
+            <input type='submit' value='search' class='bt'>
+          </form>
+        </li>
       </ul>
     </div>
     <!-- ********************** top nav bar ********************** -->
 
     <!-- ********************** identity cards ********************** -->
-    <div class="containter">
+    <div class="containter" id="news">
       <div class="about">
 
         <!-- first one -->
@@ -51,7 +57,7 @@
     <!-- ********************** end identity cards ********************** -->
 
     <!-- ********************** fixed background examble ********************** -->
-    <div class="fixed-background">
+    <div class="fixed-background" id='contact'>
       <p class="paragraph">
         this div has a fixed back ground and uppercase letters
       </p>
@@ -59,7 +65,7 @@
     <!-- ********************** end fixed background examble ********************** -->
 
     <!-- ********************** transpalent background examble ********************** -->
-    <div class="texts">
+    <div class="texts" id='about'>
         <!-- arabic with direction right to left -->
         <p class="ar">
           يحتوي Bootstrap 4 على تحديث جديد مع عدد قليل من التغييرات في الميزات. لقد تلقينا طلبًا طويلًا جدًا لإضافة حاويات متجاوبة - شكرًا جزيلاً للمطورين الذين يساهمون في Bootstrap لالتزامهم به ومساعدتنا على طول الطريق. سيتم نقل جميع الميزات الجديدة تقريبًا إلى Bootstrap 5 ، لذا لا تتردد في البدء في استخدامها الآن.

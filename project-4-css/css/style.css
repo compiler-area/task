@@ -26,11 +26,14 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
 }
 
-li a:hover:not(.active) {
+.top li {
+  padding: 14px 16px;
+}
+
+.top li:hover{
   background-color: #111;
 }
 
@@ -65,9 +68,9 @@ li a:hover:not(.active) {
   text-transform: capitalize;
 }
 
- .person p {
-   display: none;
- }
+.person p {
+  display: none;
+}
 
 .person:hover {
   top : 0;
@@ -100,7 +103,9 @@ li a:hover:not(.active) {
   direction: rtl;
   background: rgba(255, 0, 0, 0.5);
   margin: 5px;
-  padding: 20px
+  padding: 20px;
+  min-width: 570px;
+  max-width: 1200px;
 }
 
 .texts .en {
@@ -108,4 +113,22 @@ li a:hover:not(.active) {
   background: rgba(0, 0, 255, 0.5);
   margin: 5px;
   padding: 20px
+}
+
+a:active{
+  background-color: #4CAF50 ;
+}
+
+form > input{
+  margin:-3px;
+  padding: 3px;
+  border: none !important;
+  outline: none !important;
+
+}
+
+
+form > input[type='submit']{
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
